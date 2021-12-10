@@ -15,7 +15,7 @@
 
 	<?php
 	// Elementor `footer` location.
-	if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'footer' ) ) {
+	if ( ! function_exists( 'elementor_theme_do_location' )) {
 		?>
 
 		<?php do_action( 'ocean_footer' ); ?>
