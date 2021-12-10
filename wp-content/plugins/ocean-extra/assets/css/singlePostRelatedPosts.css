@@ -41,6 +41,7 @@
 .related-thumb img {
   display: block;
   width: 100%;
+  height: 200px;
   transition: opacity .3s;
 }
 
