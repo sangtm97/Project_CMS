@@ -10,11 +10,11 @@ For example:
 For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
 
 End of comment */ 
-.wp-block-search__button {
+.wp-block-search .wp-block-search__button {
     background: #fd1192;
     border: 1px solid #ccc;
     padding: 0.375em0.625em;
-    color: #c6488d;
+    color: #c6488d
     margin-left: 0.625em;
     word-break: normal;
 
