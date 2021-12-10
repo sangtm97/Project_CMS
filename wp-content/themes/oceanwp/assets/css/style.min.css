@@ -7463,7 +7463,6 @@ ul.page-numbers li .owp-icon {
 }
 .page-numbers a:hover .owp-icon use {
   stroke: rgb(85, 85, 85);
-  
 }
 .elementor-pagination .page-numbers.current,
 .elementor-pagination .page-numbers.current:hover {
@@ -9197,4 +9196,17 @@ img.mfp-img {
   .hide-tablet {
     display: none !important;
   }
+}
+.thumbnail a img{
+  width:500px;
+}
+.search-results article .search-entry-readmore a{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
 }
