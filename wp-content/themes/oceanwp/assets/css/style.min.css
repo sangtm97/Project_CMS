@@ -7323,6 +7323,8 @@ time.published svg.owp-icon {
 }
 .sidebar-box {
   margin-bottom: 40px;
+  border-top: 3px solid #00a5c6;
+  padding-top: 10px;
 }
 .sidebar-box ul {
   margin: 0;
