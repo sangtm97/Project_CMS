@@ -10,12 +10,9 @@ For example:
 For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
 
 End of comment */ 
-.oceanwp-recent-posts li{
 
-}
 .sidebar-box{
-   border-top: 3px solid #00a5c6;
- padding-top: 10px;
-}
-</style>
+     border-top: 3px solid #00a5c6;
+ 		padding-top: 10px;
+}</style>
 <!-- end Simple Custom CSS and JS -->
