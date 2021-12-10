@@ -9210,17 +9210,18 @@ img.mfp-img {
   display: inline-block;
   font-size: 10px;
 }
-.wp-block-search__button {
-  background: #fd1192;
+.wp-block-search .wp-block-search__button {
+  background-color:#1e71bf;
   border: 1px solid #ccc;
   padding: 0.375em0.625em;
-  color: #c6488d;
+  color:#1e71bf;
   margin-left: 0.625em;
   word-break: normal;
+
 }
-.wp-block-search__label {
-  text-align: left;
-  display: flex;
+.wp-block-search__label{
+text-align:left;
+display: flex;
 }
 .blog-entry.post .thumbnail img {
   margin-left: 25px;
