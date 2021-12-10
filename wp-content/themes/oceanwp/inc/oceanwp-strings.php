@@ -29,7 +29,7 @@ if ( ! function_exists( 'oceanwp_theme_strings' ) ) {
 			array(
 
 				'owp-string-header-skip-link'            => apply_filters( 'ocean_header_skip_link', __( 'Skip to content', 'oceanwp' ) ),
-				'owp-string-search-text'                 => apply_filters( 'ocean_search_text', __( 'Search', 'oceanwp' ) ),
+				'owp-string-search-text'                 => apply_filters( 'ocean_search_text', __( 'Tìm kiếm', 'oceanwp' ) ),
 				'owp-string-mobile-search-text'          => apply_filters( 'ocean_mobile_search_text', __( 'Search', 'oceanwp' ) ),
 				'owp-string-mobile-fs-search-text'       => apply_filters( 'ocean_mobile_fs_search_text', __( 'Type your search', 'oceanwp' ) ),
 				'owp-string-header-replace-search-text'  => apply_filters( 'ocean_header_replace_search_text', __( 'Type then hit enter to search...', 'oceanwp' ) ),
@@ -46,7 +46,7 @@ if ( ! function_exists( 'oceanwp_theme_strings' ) ) {
 				'owp-string-comment-email'               => apply_filters( 'ocean_comment_email', __( 'Email', 'oceanwp' ) ),
 				'owp-string-comment-website'             => apply_filters( 'ocean_comment_website', __( 'Website', 'oceanwp' ) ),
 				'owp-string-search-continue-reading'     => apply_filters( 'ocean_search_continue_reading', __( 'Continue Reading', 'oceanwp' ) ),
-				'owp-string-post-continue-reading'       => apply_filters( 'ocean_post_continue_reading', __( 'Continue Reading', 'oceanwp' ) ),
+				'owp-string-post-continue-reading'       => apply_filters( 'ocean_post_continue_reading', __( 'Đọc tiếp', 'oceanwp' ) ),
 				'owp-string-single-related-posts'        => apply_filters( 'ocean_single_related_posts', __( 'You Might Also Like', 'oceanwp' ) ),
 				'owp-string-single-next-post'            => apply_filters( 'ocean_single_next_post', __( 'Bài Viết Sau', 'oceanwp' ) ),
 				'owp-string-single-prev-post'            => apply_filters( 'ocean_single_prev_post', __( 'Bài Viết Trước', 'oceanwp' ) ),
