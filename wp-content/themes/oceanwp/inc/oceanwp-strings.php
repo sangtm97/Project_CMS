@@ -46,7 +46,7 @@ if ( ! function_exists( 'oceanwp_theme_strings' ) ) {
 				'owp-string-comment-email'               => apply_filters( 'ocean_comment_email', __( 'Email', 'oceanwp' ) ),
 				'owp-string-comment-website'             => apply_filters( 'ocean_comment_website', __( 'Website', 'oceanwp' ) ),
 				'owp-string-search-continue-reading'     => apply_filters( 'ocean_search_continue_reading', __( 'Continue Reading', 'oceanwp' ) ),
-				'owp-string-post-continue-reading'       => apply_filters( 'ocean_post_continue_reading', __( 'Continue Reading', 'oceanwp' ) ),
+				'owp-string-post-continue-reading'       => apply_filters( 'ocean_post_continue_reading', __( 'Đọc tiếp', 'oceanwp' ) ),
 				'owp-string-single-related-posts'        => apply_filters( 'ocean_single_related_posts', __( 'You Might Also Like', 'oceanwp' ) ),
 				'owp-string-single-next-post'            => apply_filters( 'ocean_single_next_post', __( 'Next Post', 'oceanwp' ) ),
 				'owp-string-single-prev-post'            => apply_filters( 'ocean_single_prev_post', __( 'Previous Post', 'oceanwp' ) ),
