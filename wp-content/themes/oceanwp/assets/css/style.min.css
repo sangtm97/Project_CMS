@@ -9243,3 +9243,16 @@ img.mfp-img {
   font-size: 20px;
   margin: 5px 0 0;
 }
+.thumbnail a img{
+  width:800px;
+}
+.search-results article .search-entry-readmore a{
+  background-color: #00a5c6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
