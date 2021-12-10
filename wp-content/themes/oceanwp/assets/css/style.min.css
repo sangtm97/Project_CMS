@@ -9197,11 +9197,11 @@ img.mfp-img {
     display: none !important;
   }
 }
-.thumbnail a img{
-  width:500px;
+.thumbnail a img {
+  width: 500px;
 }
-.search-results article .search-entry-readmore a{
-  background-color: #4CAF50; /* Green */
+.search-results article .search-entry-readmore a {
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -9217,9 +9217,29 @@ img.mfp-img {
   color: #c6488d;
   margin-left: 0.625em;
   word-break: normal;
-
 }
-.wp-block-search__label{
-text-align:left;
-display: flex;
+.wp-block-search__label {
+  text-align: left;
+  display: flex;
+}
+.blog-entry.post .thumbnail img {
+  margin-left: 25px;
+}
+.content-area {
+  background-color: oldlace;
+  padding: 93px;
+}
+.blog-entry.post .thumbnail:hover .overlay {
+  margin-left: 25px;
+}
+.single nav.post-navigation {
+  font-size: 3rem;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #f1f1f1;
+}
+.single nav.post-navigation .nav-links .post-title {
+  display: block;
+  font-size: 20px;
+  margin: 5px 0 0;
 }
