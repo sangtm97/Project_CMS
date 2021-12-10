@@ -20,11 +20,14 @@
 
 	<?php } elseif ( is_search() ) { ?>
 
-		<p>
-			<?php
-			esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with different keywords.', 'oceanwp' );
-			?>
-		</p>
+		<div class="error404-content clr">
+
+			<h3 class="error-title-result"><?php esc_html_e( 'Không tìm thấy từ khóa', 'oceanwp' ); ?></h3>
+			<p class="error-text-result"><?php esc_html_e( 'Xin vui lòng nhập lại từ khóa khác.', 'oceanwp' ); ?></p>
+			<?php get_search_form(); ?>
+			<a class="error-btn-result button" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Quay lại trang', 'oceanwp' ); ?></a>
+
+		</div>
 
 	<?php } elseif ( is_category() ) { ?>
 

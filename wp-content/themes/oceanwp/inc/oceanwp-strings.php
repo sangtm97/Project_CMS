@@ -29,7 +29,7 @@ if ( ! function_exists( 'oceanwp_theme_strings' ) ) {
 			array(
 
 				'owp-string-header-skip-link'            => apply_filters( 'ocean_header_skip_link', __( 'Skip to content', 'oceanwp' ) ),
-				'owp-string-search-text'                 => apply_filters( 'ocean_search_text', __( 'Search', 'oceanwp' ) ),
+				'owp-string-search-text'                 => apply_filters( 'ocean_search_text', __( 'Tìm kiếm', 'oceanwp' ) ),
 				'owp-string-mobile-search-text'          => apply_filters( 'ocean_mobile_search_text', __( 'Search', 'oceanwp' ) ),
 				'owp-string-mobile-fs-search-text'       => apply_filters( 'ocean_mobile_fs_search_text', __( 'Type your search', 'oceanwp' ) ),
 				'owp-string-header-replace-search-text'  => apply_filters( 'ocean_header_replace_search_text', __( 'Type then hit enter to search...', 'oceanwp' ) ),
